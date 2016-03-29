@@ -1,11 +1,4 @@
-#tweets {
-    margin: auto;
-    background-color: darkslategray;
-    width: 500px;
-    height: 350px;
-    padding-right: 30px;
-    overflow-y: auto;
-}
+
 .answer {
     margin-top: 5px;
     font-size: 4em;
@@ -23,16 +16,7 @@
     margin-bottom: 10px;
 }
 
-ul {
-    list-style: none;
-    color:white;
-    padding-top:15px;
-    text-align: left;
-}
 
-li {
-    padding-top:10px;
-}
 
 
 .calc-button {
@@ -47,30 +31,9 @@ h1 {
     text-align: center;
 }
 
-#new-tweet{
-    margin-bottom: 5px;
-    width: 500px;
-}
 
 #login{
     margin-bottom: 5px;
 
 }
 
-a {
-    padding-right: 15px;
-    color: darkslategray;
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
