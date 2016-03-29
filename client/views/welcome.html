@@ -1,0 +1,12 @@
+    <div id='wrapper'>
+    <form>
+        <input id="login" type="number" ng-model="op1" placeholder="Input 1">
+        <input id="login" type="number" ng-model="op2" placeholder="Input 2">
+    </form>
+    <button ng-click="add()" class="calc-button">+</button>
+    <button ng-click="subtract()" class="calc-button">-</button>
+    <button ng-click="multiply()" class="calc-button">*</button>
+    <button ng-click="divide()" class="calc-button">&divide;</button>
+    <p class="answer" ng-bind="answer">{{answer}}</p>
+    <p class="alert" ng-bind="alert">{{alert}}</p>
+    </div>
