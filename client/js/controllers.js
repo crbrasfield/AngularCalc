@@ -13,7 +13,7 @@ controllers.controller('WelcomeController', ['$scope', '$rootScope', '$http', fu
         } else if ($scope.op2 === null) {
             $scope.alert = 'INPUT MISSING';
         } else {
-            $scope.answer = ($scope.op1 + $scope.op2)
+            $scope.answer = $scope.op1 + ' + ' + $scope.op2 + ' = ' + ($scope.op1 + $scope.op2)
             $scope.op1 = null;
             $scope.op2 = null;
             $scope.alert = null;
@@ -26,7 +26,7 @@ controllers.controller('WelcomeController', ['$scope', '$rootScope', '$http', fu
         } else if ($scope.op2 === null) {
             $scope.alert = 'INPUT MISSING';
         } else {
-            $scope.answer = ($scope.op1 - $scope.op2)
+            $scope.answer = $scope.op1 + ' - ' + $scope.op2 + ' = ' +  ($scope.op1 - $scope.op2)
             $scope.op1 = null;
             $scope.op2 = null;
             $scope.alert = null;
@@ -39,7 +39,7 @@ controllers.controller('WelcomeController', ['$scope', '$rootScope', '$http', fu
         } else if ($scope.op2 === null) {
             $scope.alert = 'INPUT MISSING';
         } else {
-            $scope.answer = ($scope.op1 * $scope.op2)
+            $scope.answer = $scope.op1 + ' * ' + $scope.op2 + ' = ' + ($scope.op1 * $scope.op2)
             $scope.op1 = null;
             $scope.op2 = null;
             $scope.alert = null;
@@ -54,7 +54,7 @@ controllers.controller('WelcomeController', ['$scope', '$rootScope', '$http', fu
         } else if ($scope.op1 === 0) {
             $scope.alert = 'CAN NOT DIVIDE BY ZERO';
         } else {
-            $scope.answer = ($scope.op1 / $scope.op2)
+            $scope.answer = $scope.op1 + ' / ' + $scope.op2 + ' = ' + ($scope.op1 / $scope.op2)
             $scope.op1 = null;
             $scope.op2 = null;
             $scope.alert = null;
